@@ -1,0 +1,94 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "unni store",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "TellProductLocationIntent",
+          "slots": [
+            {
+              "name": "prod_name",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "aisle",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "rack",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "shelf",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "slot",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{} is on aisle {aisle}, rack {rack}, shelf {shelf}, slot {slot}"
+          ]
+        },
+        {
+          "name": "GetProductLocationIntent",
+          "slots": [
+            {
+              "name": "prod_name",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "aisle",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "rack",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "shelf",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "slot",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "where is {prod_name} located",
+            "where can I find {prod_name}",
+            "which aisle has {prod_name}"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "5"
+}

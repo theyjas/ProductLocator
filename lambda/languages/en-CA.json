@@ -1,0 +1,33 @@
+{
+    "SKILL_NAME": "Unni Store Product Locator",
+    "WELCOME": [
+      "Welcome to {}. What would you like to do?"
+    ],
+    "WELCOME_REPROMPT": [
+      "Welcome to {}. What would you like to do?"
+    ],
+    "GET_FAV_COLOR": [
+      "{} is located at aisle {}, rack {}, shelf {}, position {}. Would you like to know anything else?"
+    ],
+    "GET_FAV_COLOR_REPROMPT": [
+      "Would you like to know anything else?"
+    ],
+    "HELP": [
+      "This is the help prompt."
+    ],
+    "HELP_REPROMPT": [
+      "This is the help reprompt."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. Can you please repeat?"
+    ],
+    "FALLBACK_REPROMPT": [
+      "Can you please repeat?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good bye",
+      "Okay. I'll be here if you need me."
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}
